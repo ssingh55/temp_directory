@@ -1,0 +1,21 @@
+{
+    "region": "us-east-2",
+    "upload": {
+        "time": {
+            "minTimePeriod": 0
+        },
+        "bucketDetails": {
+            "bucketName": "testcli96146"
+        },
+        "localDirectoriesPathDetails": {
+            "directoryPathArrays": ["testuploadfolderdata/"]
+        }
+    },
+    "download": {
+        "bucketDetails": {
+            "bucketName": "testcli6146"
+        },
+        "downloadDirectory": "/home/exotel/Downloads",
+        "dateFormat": "YYYY-MM-DD"
+    }
+}

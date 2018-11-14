@@ -1,0 +1,21 @@
+{
+    "region": "ap-south-1",
+    "upload": {
+        "time": {
+            "minTimePeriod": 0
+        },
+        "bucketDetails": {
+            "bucketName": "test9614"
+        },
+        "localDirectoriesPathDetails": {
+            "directoryPathArrays": ["/home/exotel/awsS3TestUsingNode/production/testuploadfolderdata/"]
+        }
+    },
+    "download": {
+        "bucketDetails": {
+            "bucketName": "testcli96146"
+        },
+        "downloadDirectory": "/home/exotel/Downloads",
+        "dateFormat": "YYYY-MM-DD"
+    }
+}

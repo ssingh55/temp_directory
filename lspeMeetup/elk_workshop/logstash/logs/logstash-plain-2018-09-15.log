@@ -1,0 +1,27 @@
+[2018-09-15T15:54:13,123][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/exotel/lspeMeetup/elk_workshop/logstash/modules/netflow/configuration"}
+[2018-09-15T15:54:13,132][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/exotel/lspeMeetup/elk_workshop/logstash/modules/fb_apache/configuration"}
+[2018-09-15T15:54:13,140][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"/home/exotel/lspeMeetup/elk_workshop/logstash/data/queue"}
+[2018-09-15T15:54:13,142][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/home/exotel/lspeMeetup/elk_workshop/logstash/data/dead_letter_queue"}
+[2018-09-15T15:54:13,174][INFO ][logstash.runner          ] No config files found in path {:path=>"/home/exotel/lspeMeetup/elk_workshop/logstashconfigs/testconfig"}
+[2018-09-15T15:54:13,179][FATAL][logstash.runner          ] An unexpected error occurred! {:error=>#<RuntimeError: No config files found: logstashconfigs/testconfig. Can you make sure this path is a logstash config file?>, :backtrace=>["/home/exotel/lspeMeetup/elk_workshop/logstash/logstash-core/lib/logstash/config/loader.rb:18:in `format_config'", "/home/exotel/lspeMeetup/elk_workshop/logstash/logstash-core/lib/logstash/runner.rb:296:in `execute'", "/home/exotel/lspeMeetup/elk_workshop/logstash/vendor/bundle/jruby/1.9/gems/clamp-0.6.5/lib/clamp/command.rb:67:in `run'", "/home/exotel/lspeMeetup/elk_workshop/logstash/logstash-core/lib/logstash/runner.rb:204:in `run'", "/home/exotel/lspeMeetup/elk_workshop/logstash/vendor/bundle/jruby/1.9/gems/clamp-0.6.5/lib/clamp/command.rb:132:in `run'", "/home/exotel/lspeMeetup/elk_workshop/logstash/lib/bootstrap/environment.rb:71:in `(root)'"]}
+[2018-09-15T15:58:03,269][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/exotel/lspeMeetup/elk_workshop/logstash/modules/netflow/configuration"}
+[2018-09-15T15:58:03,276][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/exotel/lspeMeetup/elk_workshop/logstash/modules/fb_apache/configuration"}
+[2018-09-15T15:58:03,316][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"d6a0e32e-476c-43c3-a656-796208c76b0b", :path=>"/home/exotel/lspeMeetup/elk_workshop/logstash/data/uuid"}
+[2018-09-15T15:58:03,677][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2018-09-15T15:58:04,061][INFO ][logstash.pipeline        ] Pipeline main started
+[2018-09-15T15:58:04,205][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-09-15T15:59:40,374][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2018-09-15T15:59:40,382][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2018-09-15T16:01:04,567][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/exotel/lspeMeetup/elk_workshop/logstash/modules/netflow/configuration"}
+[2018-09-15T16:01:04,573][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/exotel/lspeMeetup/elk_workshop/logstash/modules/fb_apache/configuration"}
+[2018-09-15T16:01:04,846][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2018-09-15T16:01:05,122][INFO ][logstash.pipeline        ] Pipeline main started
+[2018-09-15T16:01:05,197][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-09-15T16:01:53,261][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2018-09-15T16:01:53,276][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2018-09-15T16:02:29,798][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/exotel/lspeMeetup/elk_workshop/logstash/modules/netflow/configuration"}
+[2018-09-15T16:02:29,804][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/exotel/lspeMeetup/elk_workshop/logstash/modules/fb_apache/configuration"}
+[2018-09-15T16:02:30,202][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2018-09-15T16:02:30,497][INFO ][logstash.pipeline        ] Pipeline main started
+[2018-09-15T16:02:30,605][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-09-15T16:05:31,831][INFO ][logstash.outputs.file    ] Opening file {:path=>"/tmp/file2"}

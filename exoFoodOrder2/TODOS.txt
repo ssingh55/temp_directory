@@ -1,0 +1,14 @@
+Tracability for errors. For ex: SMS is not sent, so your code or logs should be clearly say- sms is sent or not
+
+Modularize your server.js code.
+
+Writing test cases for your code.
+
+Ngrok -> how to update URLs dynamically.
+
+Part 2: Using Exotel APIs.
+   a) without call flow (no applets)
+   b) with call flow (applets)
+   c) region specific use-cases.
+        For some numbers - give different menu
+        Other than above numbers - give default menu.

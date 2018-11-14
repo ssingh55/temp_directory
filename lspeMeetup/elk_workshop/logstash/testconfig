@@ -1,0 +1,16 @@
+input {
+  file {
+    path => "/tmp/file1"
+    type => "file1"
+  }
+}
+ 
+filter {
+  mutate {
+    copy => { "message" => "message1" }
+  }
+}
+ 
+output {
+   file { path => "/tmp/file2" }
+}
